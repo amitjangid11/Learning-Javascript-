@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SignUp & SignIn Form</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Poppins"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Start Container -->
+    <div class="container">
+      <div class="form-box">
+        <h1 class="title">Sign Up</h1>
+        <div class="underline"></div>
+        <form>
+          <div class="input-group">
+            <div class="input-field nameField">
+              <i class="fa-solid fa-user"></i>
+              <input type="text" placeholder="Name" />
+            </div>
+            <!--End Input-field-->
+
+            <div class="input-field">
+              <i class="fa-solid fa-envelope"></i>
+              <input type="email" placeholder="Email" />
+            </div>
+            <!--End Input-field-->
+
+            <div class="input-field">
+              <i class="fa-solid fa-key"></i>
+              <input type="password" placeholder="Password" />
+            </div>
+            <!--End Input-field-->
+            <p><span class="text">Password Suggestion  </span><a href="#">Click Here!</a></p>
+          </div>
+          <!--End Input-Group-->
+
+          <div class="btn-field">
+            <button type="button" class="SignUpBtn">Sign up</button>
+            <button type="button" class="disable SignInBtn">Sign In</button>
+          </div><!--End 1Button-field -->
+        </form>
+      </div>
+      <!-- End form-box-->
+    </div>
+    <!-- End Container -->
+
+    <script src="script.js"></script>
+  </body>
+</html>
