@@ -1,0 +1,5 @@
+// Class hoisting
+
+class Human{
+
+}
